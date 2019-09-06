@@ -13,3 +13,8 @@ Feature: FizzBuzz Game
     Given create a FizzBuzz game
     When I play with number 15
     Then The result is "FizzBuzz"
+
+  Scenario: Let's Play to get Buzz
+    Given create a FizzBuzz game
+    When I play with number 50
+    Then The result is "Buzz"
