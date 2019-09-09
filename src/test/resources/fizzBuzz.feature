@@ -16,5 +16,5 @@ Feature: FizzBuzz Game
 
   Scenario: Let's Play to get Buzz
     Given create a FizzBuzz game
-    When I play with number 501
+    When I play with number 50
     Then The result is "Buzz"
